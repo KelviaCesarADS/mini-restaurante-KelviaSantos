@@ -5,8 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cardápio</title>
-    <link rel="stylesheet" href="./css/style.css">
-
+  <link rel="stylesheet" href="./css/style.css">
+  <style>
+    body {
+      font-size: 18px;
+    }
+  </style>
 </head>
 
 <body>
@@ -21,16 +25,9 @@
   </header>
 
   <main>
-
-
-
+    <h1>Cardápio</h1>
     <table>
       <thead>
-        <tr>
-          <th colspan="3">
-            <h1>Cardápio</h1>
-          </th>
-        </tr>
         <tr>
           <th>Prato</th>
           <th>Descrição</th>
@@ -52,7 +49,8 @@
         </tr>
         <tr>
           <td>Risoto de Cogumelos</td>
-          <td>​Arroz arbóreo cremoso com mix de cogumelos frescos (paris, shimeji e portobello), finalizado com azeite
+          <td style="width: 700px;">​Arroz arbóreo cremoso com mix de cogumelos frescos (paris, shimeji e portobello),
+            finalizado com azeite
             trufado e parmesão vegano.</td>
           <td>R$ 52,00</td>
         </tr>
@@ -70,18 +68,20 @@
         </tr>
       </tbody>
     </table>
-    <h2>Sugestões do Chef</h2>
-    <ol>
-      <li>Moqueca de Palmito</li>
-      <li>Escondidinho de Macaxeira</li>
-      <li>Risoto de Cogumelos</li>
-    </ol>
-    <div>
-      <img src="./img/vegan-moqueca-title-1536x1080.jpg"
-        alt="https://theveganplanetkitchen.com/vegan-moqueca-brazilian-hearts-of-palm-stew/?hl=pt-BR">
-      <img src="./img/hamburguer-grao-de-bico.jpg"
-        alt="https://rebalcomvoce.com.br/receitas/hamburguer-de-grao-de-bico-um-hamburguer-vegano/?hl=pt-BR">
-    </div>
+    <section class="suggestion">
+      <h2>Sugestões do Chef</h2>
+      <ol>
+        <li>Moqueca de Palmito</li>
+        <img src="./img/vegan-moqueca-title-1536x1080.jpg"
+          alt="https://theveganplanetkitchen.com/vegan-moqueca-brazilian-hearts-of-palm-stew/?hl=pt-BR">
+        <li>Risoto de Cogumelos</li>
+        <img src="./img/risoto-cogumelo.jpeg"
+          alt="https://tanamesa.com/receita/risoto-de-cogumelo-portobello-com-lascas-de-parmesao-paula-rizkallah/">
+        <li>Burguer de grão-de-bico</li>
+        <img src="./img/hamburguer-grao-de-bico.jpg"
+          alt="https://rebalcomvoce.com.br/receitas/hamburguer-de-grao-de-bico-um-hamburguer-vegano/?hl=pt-BR">
+      </ol>
+    </section>
   </main>
   <footer>
     <a href="instagram.com">Instagram - @raizepata.recife</a>

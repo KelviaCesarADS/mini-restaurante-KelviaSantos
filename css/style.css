@@ -1,0 +1,177 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  height: 100vh;
+  color: #4a4a4a;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+/* estilo do cabeçalho */
+
+header {
+  padding: 20px;
+  background-color: linen;
+  border-radius: 0 0 5% 5%;
+  display: block;
+  margin: 0 auto;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header img {
+  float: left;
+  width: 90px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+header nav {
+  font-size: larger;
+  float: right;
+  margin-top: 35px;
+}
+
+nav a {
+  color: black;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #958787;
+  background-color: #9587870e;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+/* estilo em comum main e footer */
+
+main,
+footer {
+  padding: 20px;
+}
+
+main h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #3e3737;
+}
+
+footer {
+  text-align: center;
+  background-color: linen;
+  border-radius: 5% 5% 0 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+/* Estilo home */
+
+.mainHome {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.mainHome .description {
+  text-align: center;
+  font-size: 24px;
+  color: #4a4a4a;
+  line-height: 1.5;
+}
+
+.mainHome section {
+  width: 60%;
+  padding: 10px;
+  margin: auto;
+}
+
+.differences {
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5%;
+  background-color: linen;
+  text-align: center;
+}
+
+.differences > ul {
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  list-style: none;
+  padding-left: 0;
+}
+
+.differences > ul > li::before {
+  content: "✔";
+  margin-right: 20px;
+}
+
+/* estilo do menu */
+
+table {
+  margin: 0 auto;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.suggestion {
+  margin: 30px auto;
+  padding: 20px;
+  width: 40%;
+  border-radius: 5%;
+  background-color: linen;
+  text-align: center;
+}
+
+.suggestion > ol {
+  text-align: center;
+  list-style-position: inside;
+  padding: 0;
+}
+
+.suggestion img {
+  margin: 10px 0;
+  width: 200px;
+  border-radius: 5%;
+}
+
+/* Estilos contact */
+
+.contactList {
+  list-style-position: inside;
+}
+
+.steps {
+  margin: 20px auto;
+  padding: 25px;
+  width: 45%;
+  border-radius: 5%;
+  background-color: linen;
+}
+
+.steps > h2 {
+  margin: 0;
+}
+
+.steps > ol {
+  list-style-position: inside;
+  padding: 0;
+}
