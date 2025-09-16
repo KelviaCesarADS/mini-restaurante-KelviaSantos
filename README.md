@@ -3,7 +3,9 @@ Projeto para aula htm(header,footer,table,nav,main) e css(inline,externo e inter
 
 |HOME|MENU|CONTATO|
 |-|-|-|
-|<img width="2428" height="2172" alt="127 0 0 1_5500_index html (1)" src="https://github.com/user-attachments/assets/5f395970-a6e7-4d01-9723-b6f415199cd5" />|<img width="2428" height="2944" alt="127 0 0 1_5500_menu html (1)" src="https://github.com/user-attachments/assets/09386354-4456-4579-a236-5803d4635f2b" />|<img width="2428" height="2370" alt="127 0 0 1_5500_contact html (1)" src="https://github.com/user-attachments/assets/6817874b-9290-44d5-be09-4beb6d9c5d90" />|
+|<img width="2428" height="2172" alt="127 0 0 1_5500_index html (1)" src="https://github.com/user-attachments/assets/5f395970-a6e7-4d01-9723-b6f415199cd5" />|<img width="1119" height="1161" alt="image" src="https://github.com/user-attachments/assets/d6efa622-d5d8-461d-9267-8c0dbbcabaa1" />|<img width="1116" height="925" alt="image" src="https://github.com/user-attachments/assets/b1e87097-6d63-4654-aab6-5f69eb8a78ca" />
+
+
 
 OBS: 
 * O nome a logo e os textos sobre o restaurantes como os pratos, valores, horários de atendimento sugestões e como fazer o pedido, foram gerados por IA pelo gemini, para focar apenas no código;
