@@ -1,0 +1,119 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  height: 100vh;
+  color: #4a4a4a;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+/* estilo do cabeçalho */
+
+header {
+  padding: 20px;
+  background-color: linen;
+  border-radius: 0 0 5% 5%;
+  display: block;
+  margin: 0 auto;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header img {
+  float: left;
+  width: 90px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+header nav {
+  font-size: larger;
+  float: right;
+  margin-top: 35px;
+}
+
+nav a {
+  color: black;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #958787;
+  background-color: #9587870e;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+/* estilo em comum main e footer */
+
+main,
+footer {
+  padding: 20px;
+}
+
+main h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #3e3737;
+}
+
+footer {
+  text-align: center;
+  background-color: linen;
+  border-radius: 5% 5% 0 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+}
+
+/* Estilo index */
+
+.mainHome {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.mainHome .description {
+  text-align: center;
+  font-size: 24px;
+  color: #4a4a4a;
+  line-height: 1.5;
+}
+
+.mainHome section {
+  width: 60%;
+  padding: 10px;
+  margin: auto;
+}
+
+.diferenciais {
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5%;
+  background-color: linen;
+  text-align: center;
+}
+
+.diferenciais > ul {
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  list-style: none;
+  padding-left: 0;
+}
+
+.diferenciais > ul > li::before {
+  content: "✔";
+  margin-right: 20px;
+}
